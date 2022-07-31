@@ -1,0 +1,139 @@
+    @font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+    } 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI Italic';
+}
+body{
+    background-color: #fafafa;
+}
+
+/* DIV PRINCIPAL */
+.divinsta{
+    width: 320px;
+    padding: 20px;
+    margin: auto ;
+    text-align: center;
+    margin-top: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    box-shadow: 2px solid grey ;
+}
+.divinsta p{
+    color: #8E8E8E;
+}
+.divinsta div{
+    margin-bottom: 10px;
+}
+.div-bold p{
+    font-family: 'Segoe UI Bold';
+    color: #8E8E8E;
+}
+.div-regular p{
+    font-family: 'Segoe UI Regular';
+    font-size: 12px;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+.logo img{
+    max-width: 60%;
+}
+.divs-input input{
+    margin-bottom: 10px;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    width: 90%;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.041);
+}
+input::placeholder{
+    font-family: 'Segoe UI Regular';
+    font-size: 12px;
+}
+
+/*  DIV CONECTE-SE */
+.conecte-se{
+    width: 320px;
+    padding: 10px;
+    margin: auto ;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+}
+
+/* DIV OBTENHA O APLICATIVO */
+.obtenha-app{
+    padding: 10px;
+    margin: auto ;
+    text-align: center;
+    margin-top: 10px;
+}
+.obtenha-app img{
+    width: 140px;
+}
+/* FOOTER */
+.footer{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 5%;
+    min-width: 100px;
+    flex-wrap: wrap;
+}
+.footer p{
+    margin-right: 20px;
+    font-family: 'Segoe UI Regular';
+    color: #8E8E8E;
+}
+.separados-footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI Regular';
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+.email-celular{
+    background-color: red;
+}
+/* MEDIA QUERY - MOBILE */
+
+/* @media(min-width: 400px) {
+    .footer{
+        min-width: 200px;
+        background-color: red;
+    }
+} */
